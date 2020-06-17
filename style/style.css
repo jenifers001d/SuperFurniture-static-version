@@ -1,0 +1,391 @@
+/*********************** nav bar ***********************/
+.navbar {
+    background-color: rgba(244, 230, 215, 0.75);
+}
+
+nav .navbar-brand {
+    color: rgba(0, 0, 0, .9);
+}
+
+.navbar-nav {
+    padding-right: 10px;
+}
+
+nav .nav-link,
+.toggler-icon {
+    color: rgba(0, 0, 0, .5);
+}
+
+.toggler-icon {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 1.75rem;
+    margin-right: 50px;
+    padding: 2px 6px;
+}
+
+.material-icons {
+    font-size: 1.75rem;
+    padding: 2px 6px;
+}
+
+.dropdown-toggle {
+    padding-left: 0px;
+}
+
+.search {
+    margin-right: 70px;
+}
+
+.search button:hover {
+    border-color: rgb(219, 140, 17, .5);
+    background-color: rgb(219, 140, 17, .8);
+}
+
+.cart-item {
+    position: absolute;
+    right: 0px;
+    top: 13px;
+    z-index: 10;
+}
+
+.cart-icon {
+    display: block;
+    color: rgba(0, 0, 0, .5);
+    margin-right: 20px;
+}
+
+nav .navbar-brand:hover,
+nav .nav-link:hover,
+.material-icons:hover {
+    color: #db8c11;
+    border-color: rgb(219, 140, 17, .5);
+}
+
+/*********************** footer ***********************/
+footer {
+    background-color: #242424;
+    color: #CCCCCC;
+    height: 20vh;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-items div {
+    padding: 0 10px;
+}
+
+
+/*********************** Home page ***********************/
+.jumbotron {
+    margin: 0px 0 56px;
+    padding-top: 120px;
+    background-image: url(/image/curology-6CJg-fOTYs4-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-shadow: 0px 0px 5px #ffffff;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-radius: 0px;
+}
+
+main {
+    margin: 30px 50px;
+
+}
+
+.my-card-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    width: 30%;
+    margin-bottom: 30px;
+    margin-right: 1.67%;
+    margin-left: 1.66%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-title a {
+    color: black;
+}
+
+.card-link-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-link-group .card-link {
+    width: 46%;
+    height: 100%;
+    margin: 2% 2%;
+    background-color: #f6f9fc;
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-link-group .card-link:hover {
+    background-color: #eef7ff;
+}
+
+/**************** Room product list page ****************/
+/************** Category product list page **************/
+.room-banner,
+.p-banner {
+    background-color: rgba(244, 230, 215);
+    margin: 90px 0 56px;
+    padding: 30px 8%;
+    display: flex;
+    align-items: center;
+}
+
+.room-banner .room-img,
+.p-banner .p-img {
+    width: 30%;
+    margin-right: 30px;
+}
+
+.room-list-group {
+    justify-content: flex-start;
+}
+
+.card-link-group .room-list {
+    width: 123px;
+    margin: 10px;
+}
+
+.card-price {
+    margin-left: 20px;
+}
+
+/*********************** Detail page ***********************/
+.add-to-card-form {
+    display: flex;
+    align-items: center;
+}
+
+.form-check {
+    margin-right: 20px;
+}
+
+.add-btn {
+    background-color: rgb(219, 140, 17, .6);
+    border-color: rgb(219, 140, 17, .6);
+}
+
+.add-btn:hover {
+    background-color: rgb(219, 140, 17);
+    border-color: rgb(219, 140, 17);
+}
+
+.p-spec {
+    margin-bottom: 20px;
+}
+
+.table th {
+    background-color: rgb(219, 140, 17, .6);
+    color: white;
+    width: 30%;
+}
+
+.table td {
+    width: 40%;
+}
+
+
+.table th,
+.table td {
+    border-top: 0.5px solid #dee2e6;
+    border-bottom: 0.5px solid #dee2e6;
+}
+
+/********************* Shopping Cart *********************/
+div.shopping-group {
+    width: 100%;
+    min-height: calc(100vh - 56px - 20vh);
+    margin-top: 90px;
+    padding: 0 5%;
+}
+
+.shopping-content,
+.shopping-group section {
+    margin: auto;
+}
+
+.item-image {
+    width: 40%;
+    min-width: 130px;
+}
+
+.shopping-content .sh-item {
+    margin: 0 10px;
+}
+
+/*********************** No Product ***********************/
+.no-product {
+    height: calc(100vh - 56px - 20vh);
+    min-height: 300px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.no-product h1 {
+    font-weight: 300;
+    font-size: 4.5rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    /**************** Room product list page ****************/
+    /************** Category product list page **************/
+    .room-banner,
+    .p-banner {
+        padding: 30px 6%;
+    }
+
+    .card-link-group .room-list {
+        width: 22%;
+        margin: 8px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    /*********************** Home page ***********************/
+    .card {
+        width: 46.6%;
+    }
+
+    /**************** Room product list page ****************/
+    /************** Category product list page **************/
+    .room-banner,
+    .p-banner {
+        padding: 6% 10%;
+        display: block;
+    }
+
+    .room-banner .room-img,
+    .p-banner .p-img {
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /*********************** footer ***********************/
+    footer {
+        padding: 0 30px;
+    }
+
+    footer .footer-items {
+        display: block;
+    }
+
+    .footer-items div {
+        padding: 5px 10px;
+    }
+
+    /*********************** Home page ***********************/
+    h1.display-3 {
+        font-size: 3rem;
+    }
+
+    .jumbotron {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    main {
+        margin: 30px 15px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    /**************** Room product list page ****************/
+    /************** Category product list page **************/
+    .card-link-group .room-list {
+        width: 44%;
+    }
+
+    /*********************** No Product ***********************/
+    .no-product {
+        min-width: 100%;
+        padding: 0 3%;
+    }
+
+    .no-product h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    /*********************** footer ***********************/
+    footer {
+        padding: 0 20px;
+        font-size: 0.8rem;
+    }
+
+    .footer-items div {
+        padding: 5px 5px;
+    }
+
+    /*********************** Home page ***********************/
+    .no-product h1 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+/*
+
+.room-banner {
+    background-color: rgba(244, 230, 215);
+    margin: 70px 0 56px;
+    padding: 30px 8%;
+    display: flex;
+        justify-content: flex-start;
+}
+
+.room-banner .room-img {
+    width: 300px;
+    margin-right: 30px;
+}
+
+.card-link-group .room-list {
+    width: 15%;
+}
+*/
